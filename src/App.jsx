@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from '.components/SearchBar0'
+
 import './App.css'
 import SearchBar from './components/SearchBar'
 
