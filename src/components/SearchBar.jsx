@@ -7,16 +7,17 @@ function SearchBar({ onSubmit}){
     const handleFormSubmit = (event) => {
         event.preventDefault()
         console.log('necesito decirle al componente padre sobre los datos')
-        onsubmit(term)
+        onSubmit(term)
     }
 
     const handleChange = (event) => {
         console.log(event.target.value)
         setTerm(event.target.value)
+        
     }
 
     const handleClick = () => {
-        onsubmit(term)
+        onSubmit(term)
     }
 
     return(
